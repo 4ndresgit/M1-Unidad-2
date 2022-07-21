@@ -1,4 +1,7 @@
 .container{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
     width: 1200px;
     height: 1200px;
     border: 2px solid black;
@@ -17,7 +20,6 @@
 }
 
 .box{
-    margin-left: 800px;
     font-size: 30px;
     color: white;
     height: 400px;
